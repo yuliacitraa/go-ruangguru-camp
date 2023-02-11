@@ -1,0 +1,171 @@
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.grid-container {
+  display: grid; /* dengan set display menjadi grid, maka CSS grid system akan aktif. */
+  grid-template-columns: auto;
+}
+
+.grid-item {
+  display: grid;
+  gap: 1em;
+}
+
+.navbar {
+  background-color: #2b2d42;
+  width: 100%;
+  height: 3.4em;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.navbar .left a {
+  text-decoration: none;
+  color: #edf2f4;
+  font-size: 1.4em;
+  font-weight: bold;
+  float: left;
+  margin-left: 1rem;
+  margin-top: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+  margin-right: 1em;
+}
+
+.navbar li a {
+  color: #edf2f4;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.landing-page {
+  background-color: #2b2d42;
+  width: auto;
+  height: auto;
+  margin-top: 3.4em;
+  color: #edf2f4;
+  padding: 8em;
+}
+
+.landing-page h1 {
+  font-size: 3em;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.profile {
+  margin: 2em;
+}
+
+.fotodiri img {
+  width: 25em;
+}
+
+.about-me,
+.experience,
+.contact-me,
+.socmed {
+  margin: auto;
+  margin-top: 3em;
+  width: 50em;
+  text-align: justify;
+}
+
+.input {
+  border-bottom: 2px solid black;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .navbar .left a {
+    font-size: 1em;
+  }
+
+  .navbar li {
+    margin-right: 0;
+  }
+
+  .navbar li a {
+    font-weight: normal;
+    font-size: 0.7em;
+    padding: 13px 9px;
+  }
+
+  .fotodiri {
+    display: flex;
+    justify-content: center;
+    margin: 0em;
+  }
+
+  .fotodiri img {
+    width: 14em;
+  }
+
+  .landing-page {
+    padding: 7em 0em;
+  }
+
+  .landing-page h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .profile p {
+    text-align: center;
+    margin: 0em;
+  }
+
+  /* p{
+    font-size: 10px;
+  } */
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  /* .main,
+  .contact-me,
+  .socmed {
+    margin: 0em 3em;
+  } */
+
+  .about-me,
+  .experience,
+  .contact-me,
+  .socmed {
+    width: auto;
+  }
+
+  .about-me p,
+  .experience p,
+  input {
+    font-size: 13px;
+  }
+
+  /* .input {
+    width: 23em;
+  } */
+
+  footer h4 {
+    font-size: 1em;
+    font-weight: normal;
+  }
+}

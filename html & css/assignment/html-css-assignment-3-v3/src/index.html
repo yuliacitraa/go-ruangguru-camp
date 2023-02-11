@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yuliacitra</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "320px",
+          },
+          extend: {
+            colors: {
+              darkblue: "#2b2d42",
+              darkolive: "#636940",
+              extrawhite: "#edf2f4",
+              yellowlemon: "#cf995f",
+              lightyellow: "#faf5ef",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- navbar -->
+      <section>
+        <div class="grid-item">
+          <!-- <div class="flex-container"> -->
+          <div class="navbar">
+            <div class="left">
+              <a class="sm:text-sm sm:font-normal sm:items-center" href="#"
+                >Yulia Citra</a
+              >
+            </div>
+            <ul>
+              <li class="hover:bg-yellowlemon hover:duration-200">
+                <a href="#about-me">About Me</a>
+              </li>
+              <li class="hover:bg-yellowlemon hover:duration-200">
+                <a href="#experience">Experience</a>
+              </li>
+              <li class="hover:bg-yellowlemon hover:duration-200">
+                <a href="#socmed">Social Media</a>
+              </li>
+            </ul>
+          </div>
+          <!-- </div> -->
+        </div>
+      </section>
+
+      <!-- landing page -->
+      <section>
+        <div class="grid-item">
+          <div class="landing-page">
+            <div class="flex-container">
+              <div class="fotodiri">
+                <img src="fotodiri.png" alt="" />
+              </div>
+              <div class="profile">
+                <h1 class="text-lg font-semibold my-11">
+                  Helo! I'm Yulia Citra
+                </h1>
+                <p class="text-sm">
+                  Saya adalah seorang mahasiswi semester 5, prodi Teknik
+                  Informatika pada salah satu Universitas di Bandung yaitu
+                  Universitas Langlang Buana. Saya memiliki minat dalam dunia
+                  pemrograman
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- main -->
+      <section>
+        <div class="grid-item">
+          <div class="main">
+            <div id="about-me" class="about-me">
+              <h2 class="text-2xl font-semibold my-5">About Me</h2>
+              <p class="ml-4 text-sm sm:ml-1 sm:font-xs">
+                Dari kecil saya tinggal di Bandung, hingga sekarang. hobi saya
+                yaitu memasak dan fotografi. saya sangat senang mencari ilmu
+                baru dan juga memiliki rasa keingintahuan yang tinggi. saya
+                orang yang senang bergaul dengan orang baru dengan harapan ada
+                benefit yang saya dapatkan dan diberikan ke orang tersebut. saya
+                saat ini sedang mengikuti salah satu program MBKM yaitu MSIB di
+                Ruangguru dengan learning path Backend Engineer. saya sangat
+                ingin bisa membuat setidaknya satu aplikasi hasil buatan saya
+                sendiri dari awal hingga akhir tanpa bantuan orang lain sebelum
+                saya lulus kuliah
+              </p>
+            </div>
+
+            <div id="experience" class="experience">
+              <h2 class="text-2xl font-semibold my-5">Experience</h2>
+
+              <div
+                class="card w-auto p-5 rounded-2xl hover:bg-darkolive hover:text-extrawhite hover:duration-200"
+              >
+                <div class="title">
+                  <h3 class="font-semibold text-base mb-4">
+                    Asisten Laboratorium 2021-sekarang
+                  </h3>
+                </div>
+                <div class="flex-container">
+                  <div class="photo">
+                    <img src="aslab.jpeg" alt="aslab" height="250em" />
+                  </div>
+                  <div class="text">
+                    <p class="ml-4 text-sm sm:ml-0 sm:mt-3">
+                      saya memulai pertama kali menjadi asisten laboratorium
+                      yaitu pada tahun 2021. disitu saya baru merasakan pertama
+                      kalinya mengajar kepada orang-orang selain teman saya. di
+                      semester 3 saya mengajarkan matakuliah Konsep Bahasa
+                      Pemrograman Dasar dengan menggunakan bahasa Java. pada
+                      semester 4 saya mengajarkan matakuliah Konsep Bahasa
+                      Pemrograman Lanjut menggunakan bahasa Java dan Python.
+                      lalu untuk di semester 5 ini saya mengajarkan matakuliah
+                      Pemrograman Web Dasar menggunakan HTML, CSS dan native PHP
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card w-auto p-5 rounded-2xl hover:bg-darkolive hover:text-extrawhite hover:duration-200"
+              >
+                <div class="title">
+                  <h3 class="font-semibold text-base mb-4">
+                    Struktural HMJIF 2021-2022
+                  </h3>
+                </div>
+                <div class="flex-container">
+                  <div class="photo">
+                    <img src="hmjif.jpeg" alt="hmjif" height="250em" />
+                  </div>
+                  <div class="text">
+                    <p class="ml-4 text-sm sm:ml-0 sm:mt-3">
+                      saya merupakan anak organisasi lebih tepatnya HMJIF atau
+                      Himpunan Mahasiswa Jurusan Informatika pada masa jabatan
+                      tahun 2021 hingga 2022. saya menjabat di departemen
+                      Penelitian dan Pengembangan atau sering disebut dengn
+                      LITBANG. ketika saya menjadi struktural / pengurus inti
+                      HMJIF saya mengikuti banyak kegiatan kepanitiaan
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card w-auto p-5 rounded-2xl hover:bg-darkolive hover:text-extrawhite hover:duration-200"
+              >
+                <div class="title">
+                  <h3 class="font-semibold text-base mb-4">
+                    Panitia LDKM Jurusan Informatika 2021
+                  </h3>
+                </div>
+                <div class="flex-container">
+                  <div class="photo">
+                    <img src="ldkm.jpeg" alt="ldkm" height="250em" />
+                  </div>
+                  <div class="text">
+                    <p class="ml-4 text-sm sm:ml-0 sm:mt-3">
+                      pada kepanitiaan LDKM, disini saya menjadi anggota
+                      Publikasi dan Dokumentasi. yang dimana, ketika saya masuk
+                      divisi ini, saya baru pertama kali menggunakan
+                      <i>photoshop</i> dan lama kelamaan saya bisa dan
+                      mengetahui tools yang ada pada photoshop. disini juga saya
+                      menyalurkan hobi saya yaitu menjadi fotografer, hehe
+                      karena saya suka memfoto sesuatu, tapi kurang suka difoto
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card w-auto p-5 rounded-2xl hover:bg-darkolive hover:text-extrawhite hover:duration-200"
+              >
+                <div class="title">
+                  <h3 class="font-semibold text-base mb-4">
+                    Panitia Webinar 2021
+                  </h3>
+                </div>
+                <div class="flex-container">
+                  <div class="photo">
+                    <img src="webinar.jpeg" alt="webinar" height="250em" />
+                  </div>
+                  <div class="text">
+                    <p class="ml-4 text-sm sm:ml-0 sm:mt-3">
+                      pada kepanitiaan Webinar ini, saya menjadi anggota pada
+                      divisi acara. dimulai dari membuat rundown webinar hingga
+                      mengatur jalannya acara. judul yang diambil di webinar ini
+                      yaitu
+                      <strong
+                        >Machine Learning: Menggunakan Python untuk
+                        Menyelesaikan Masalah di Kehidupan Sehari-hari pada Era
+                        Industri 5.0</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card w-auto p-5 rounded-2xl hover:bg-darkolive hover:text-extrawhite hover:duration-200"
+              >
+                <div class="title">
+                  <h3 class="font-semibold text-base mb-4">
+                    Panitia Belajar Bareng Masyarakat 2021
+                  </h3>
+                </div>
+                <div class="flex-container">
+                  <div class="photo">
+                    <img
+                      src="belajar-bareng-masyarakat.jpeg"
+                      alt="belajar-bareng-masyarakat"
+                      height="250em"
+                    />
+                  </div>
+                  <div class="text">
+                    <p class="ml-4 text-sm sm:ml-0 sm:mt-3">
+                      pada kepanitiaan ini saya menjadi sekretaris yang dimana
+                      mengurus proposal dan surat-menyurat. Belajar Bareng
+                      Masyarakat ini merupakan program kerja yang dimana kita
+                      mengajari anak-anak panti asuhan basic skill menggunakan
+                      komputer/laptop yang dimana bisa membantu mereka dalam
+                      mengerjakan tugas sekolah nya atau membantu mereka dalam
+                      membuat CV
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card w-auto p-5 rounded-2xl hover:bg-darkolive hover:text-extrawhite hover:duration-200"
+              >
+                <div class="title">
+                  <h3 class="font-semibold text-base mb-4">
+                    Panitia Musyawarah Besar HMJIF UNLA 2022
+                  </h3>
+                </div>
+                <div class="flex-container">
+                  <div class="photo">
+                    <img src="mubes.jpeg" alt="mubes" height="250em" />
+                  </div>
+                  <div class="text">
+                    <p class="ml-4 text-sm sm:ml-0 sm:mt-3">
+                      pada kepanitiaan ini saya menjadi sekretaris yang dimana
+                      mengurus proposal dan surat-menyurat. dan ini merupakan
+                      kepanitiaan terakhir saya dan juga berakhirnya masa
+                      jabatan saya di himpunan
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="card w-auto p-5 rounded-2xl hover:bg-darkolive hover:text-extrawhite hover:duration-200"
+              >
+                <div class="title">
+                  <h3 class="font-semibold text-base mb-4">
+                    Struktural UKM Pers Mahasiswa UNLA / LPM MOMENTUM
+                  </h3>
+                </div>
+                <div class="flex-container">
+                  <div class="photo">
+                    <img src="momentum.jpeg" alt="momentum" height="250em" />
+                  </div>
+                  <div class="text">
+                    <p class="ml-4 text-sm sm:ml-0 sm:mt-3">
+                      selain mengikuti himpunan mahasiswa, saya juga mengikuti
+                      UKM pers mahasiswa, momentum namanya. disini saya menjabat
+                      menjadi anggota Humas Internal.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- social media -->
+      <section>
+        <div class="grid-item">
+          <div id="socmed" class="socmed">
+            <h2 class="text-2xl font-semibold my-5">My Social Media!</h2>
+            <div class="flex justify-start sm:ml-2">
+              <a class="pr-4" href="instagram.com/yuliaacitraa_">
+                <img
+                  class="w-35"
+                  src="instagram.png"
+                  alt="instagram-logo"
+                  width="30em"
+                />
+              </a>
+              <a class="pr-4" href="www.linkedin.com/in/yulia-citra-3667b4219">
+                <img src="linkedin.png" alt="linkedin-logo" width="30em" />
+              </a>
+              <a class="pr-4" href="github.com/yuliacitraa">
+                <img src="github.png" alt="github-logo" width="30em" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section>
+        <div class="grid-item">
+          <div class="contact-me">
+            <h2 class="text-2xl font-semibold my-5">Contact Me!</h2>
+            <!-- <div class="flex-container"> -->
+            <form class="ml-4" action="">
+              <h4 class="my-4">Name</h4>
+              <input
+                type="text"
+                class="input w-2/3 sm:w-56 h-10 pl-4 border-b-darkblue hover:bg-lightyellow hover:rounded-2xl hover:duration-200 hover:border-extrawhite focus:border-white focus:outline-none focus:bg-white"
+                placeholder="your name"
+              />
+              <h4 class="my-4">Email</h4>
+              <input
+                type="email"
+                class="input w-2/3 sm:w-56 h-10 pl-4 border-b-darkblue hover:bg-lightyellow hover:rounded-2xl hover:duration-200 hover:border-extrawhite focus:border-white focus:outline-none focus:bg-white"
+                placeholder="your email"
+              />
+              <h4 class="my-4">Message</h4>
+              <textarea
+                class="input w-2/3 sm:w-56 h-10 pl-4 border-b-darkblue hover:bg-lightyellow hover:rounded-2xl hover:duration-200 hover:border-extrawhite focus:border-white focus:outline-none focus:bg-white"
+                placeholder="your message"
+              ></textarea>
+              <br />
+              <button
+                class="mt-10 px-6 py-2 bg-darkblue text-white rounded-3xl hover:bg-yellowlemon hover:duration-500 hover:px-12 hover:py-2"
+              >
+                Submit
+              </button>
+            </form>
+            <!-- </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <section>
+        <div class="grid-item">
+          <!-- <div class="flex-container"> -->
+          <footer
+            class="text-center mt-32 p-8 bg-darkblue text-extrawhite font-semibold"
+          >
+            <h4>Copyright @2022 by yuliacitra - be2953868</h4>
+          </footer>
+          <!-- </div> -->
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

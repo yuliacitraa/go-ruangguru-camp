@@ -1,0 +1,20 @@
+{
+  "name": "html-css-assignment-2",
+  "version": "1.0.0",
+  "main": "test.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "jest": "^29.0.3",
+    "jsdom": "20.0.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "jest --noStackTrace"
+  },
+  "description": "## Objectives * Bisa membuat styling halaman web dengan Tailwind CSS. * Bisa membuat website responsive dengan Tailwind CSS. * Bisa membuat layout Flexbox dengan Tailwind CSS. * Bisa membuat styling form dengan Tailwind CSS. * Bisa membuat styling html element dengan Tailwind CSS.",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,1 @@
+select id, nik, concat(first_name, ' ', last_name) AS student_name, date_of_birth, weight, address from people where gender='laki-laki' order by weight desc limit 5;

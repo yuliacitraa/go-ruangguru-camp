@@ -1,0 +1,54 @@
+this is a simply cashier project. this program allow user to add items and calculate the price
+
+READ AND WRITE "id_food", "amount" with number
+READ "food_name"
+READ "price"
+READ AND WRITE "final_price1", "final_price2", "final_price3", "final_price4", "final_price5", "total" with double
+
+WRITE "input the food code : "
+READ  "id_food"
+
+WRITE "input the amount of food : "
+READ  "amount"
+
+FOR RANGE OF FOOD:
+
+	IF "id_food" equal "100"
+		DISPLAY "food_name" with "Teh Tarik"
+		DISPLAY "price" with "10000"
+		STORE "final_price1" with "price" multiply "amount"
+		DISPLAY "final_price1"
+
+	ELSE IF "id_food" equal "200"
+		DISPLAY "food_name" with "Iced Coffee"
+		DISPLAY "price" with "15000"
+		STORE "final_price2" with "price" multiply "amount"
+		DISPLAY "final_price2"
+
+	ELSE IF "id_food" equal "300"
+		DISPLAY "food_name" with "Nasi Goreng"
+		DISPLAY "price" with "25000"
+		STORE "final_price3" with "price" multiply "amount"
+		DISPLAY "final_price3"
+
+	ELSE IF "id_food" equal "400"
+		DISPLAY "food_name" with "Ayam Geprek"
+		DISPLAY "price" with "30000"
+		STORE "final_price4" with "price" multiply "amount"
+		DISPLAY "final_price4"
+
+	ELSE IF "id_food" equal "500"
+		DISPLAY "food_name" with "Dimsum"
+		DISPLAY "price" with "15000"
+		STORE "final_price5" with "price" multiply "amount"
+		DISPLAY "final_price5"
+
+	ELSE IF "id_food" equal "0"
+		BREAK
+		DISPLAY "transaction ended"
+
+	ELSE 
+		DISPLAY "sorry, wrong food code"
+
+STORE "total" with "final_price1" add "final_price2" add "final_price3" add "final_price4" add "final_price5"
+DISPLAY "total"

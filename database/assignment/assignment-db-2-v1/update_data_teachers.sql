@@ -1,0 +1,1 @@
+update teachers set groups='B' where groups='A'

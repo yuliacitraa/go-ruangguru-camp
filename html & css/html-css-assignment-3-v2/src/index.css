@@ -1,0 +1,231 @@
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.grid-container {
+  display: grid; /* dengan set display menjadi grid, maka CSS grid system akan aktif. */
+  grid-template-columns: auto;
+}
+
+.grid-item {
+  display: grid;
+  gap: 1em;
+}
+
+.navbar {
+  background-color: #2b2d42;
+  width: 100%;
+  height: 3.4em;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.navbar .left a {
+  text-decoration: none;
+  color: #edf2f4;
+  font-size: 1.4em;
+  font-weight: bold;
+  float: left;
+  margin-left: 1rem;
+  margin-top: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+  margin-right: 1em;
+}
+
+.navbar li a {
+  color: #edf2f4;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  transition: 0.2s;
+  background-color: #cf995f;
+  font-weight: bold;
+  color: #edf2f4;
+}
+
+.landing-page {
+  background-color: #2b2d42;
+  width: auto;
+  height: auto;
+  margin-top: 3.4em;
+  color: #edf2f4;
+  padding: 8em;
+}
+
+.landing-page h1 {
+  font-size: 3em;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.profile {
+  margin: 2em;
+}
+.fotodiri img {
+  width: 25em;
+}
+
+.about-me,
+.experience,
+.contact-me,
+.socmed {
+  margin: auto;
+  margin-top: 3em;
+  width: 50em;
+  text-align: justify;
+}
+
+p {
+  font-size: small;
+  /* padding: 1em; */
+}
+
+.card {
+  width: auto;
+  height: auto;
+  border-radius: 1em;
+  padding: 1rem;
+}
+
+.card:hover {
+  background-color: #636940;
+  color: #edf2f4;
+  transition: 0.3s;
+}
+
+.socmed a {
+  padding-right: 1em;
+  text-decoration: none;
+}
+
+.input {
+  width: 28em;
+  height: 2.6em;
+  padding-left: 1em;
+  border: 0px;
+  border-bottom: 2px solid black;
+}
+
+.input:hover {
+  background-color: #faf5ef;
+  color: #edf2f4;
+  border-radius: 1em;
+  transition: 0.3s;
+  border-color: #faf5ef;
+}
+
+button {
+  background-color: #2b2d42;
+  color: #edf2f4;
+  margin-top: 2.5em;
+  padding: 8px 23px;
+  border: none;
+  border-radius: 2em;
+}
+
+button:hover {
+  background-color: #cf995f;
+  padding: 8px 40px;
+  transition: 0.8s;
+}
+
+footer {
+  margin-top: 10em;
+  width: 100%;
+  background-color: #2b2d42;
+  color: #edf2f4;
+  text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .navbar {
+    height: auto;
+    text-align: center;
+    position: absolute;
+  }
+
+  .navbar .left a {
+    font-size: 1em;
+  }
+
+  .navbar li {
+    margin-right: 0;
+  }
+
+  .navbar li a {
+    font-weight: normal;
+    font-size: 0.7em;
+    padding: 13px 9px;
+  }
+
+  .fotodiri {
+    display: flex;
+    justify-content: center;
+    margin: 0em;
+  }
+
+  .fotodiri img {
+    width: 14em;
+  }
+
+  .landing-page {
+    padding: 7em 0em;
+  }
+
+  .landing-page h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .profile p {
+    text-align: center;
+    margin: 0em;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .main,
+  .contact-me,
+  .socmed {
+    margin: 0em 3em;
+  }
+
+  .about-me,
+  .experience,
+  .contact-me,
+  .socmed {
+    width: auto;
+  }
+
+  .input {
+    width: 23em;
+  }
+
+  footer h4 {
+    font-size: 1em;
+    font-weight: normal;
+  }
+}
